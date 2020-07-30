@@ -1,2 +1,4 @@
-﻿  1.stack-10828.cpp
-  algorithms-training.vcxproj -> C:\Users\ygj02\algorithms\algorithms-training\Debug\algorithms-training.exe
+﻿  4.map-1157.cpp
+C:\Users\ygj02\algorithms\warming-up\4.map-1157.cpp(17,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\ygj02\algorithms\warming-up\4.map-1157.cpp(14,7): warning C4101: 'key' :참조되지 않은 지역 변수입니다.
+  algorithms-training.vcxproj -> C:\Users\ygj02\algorithms\warming-up\Debug\algorithms-training.exe
