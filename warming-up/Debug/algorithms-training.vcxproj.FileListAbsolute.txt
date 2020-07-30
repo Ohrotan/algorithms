@@ -1,0 +1,2 @@
+C:\Users\ygj02\algorithms\algorithms-training\Debug\algorithms-training.exe
+C:\Users\ygj02\algorithms\algorithms-training\Debug\algorithms-training.pdb
