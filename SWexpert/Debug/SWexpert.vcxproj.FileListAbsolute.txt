@@ -1,0 +1,2 @@
+C:\Users\ygj02\algorithms\SWexpert\Debug\SWexpert.exe
+C:\Users\ygj02\algorithms\SWexpert\Debug\SWexpert.pdb
