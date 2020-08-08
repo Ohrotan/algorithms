@@ -30,5 +30,17 @@
     <ClCompile Include="8888.cpp">
       <Filter>소스 파일\D3</Filter>
     </ClCompile>
+    <ClCompile Include="3032.cpp">
+      <Filter>소스 파일\D3</Filter>
+    </ClCompile>
+    <ClCompile Include="4615.cpp">
+      <Filter>소스 파일\D3</Filter>
+    </ClCompile>
+    <ClCompile Include="8016.cpp">
+      <Filter>소스 파일\D3</Filter>
+    </ClCompile>
+    <ClCompile Include="5293.cpp">
+      <Filter>소스 파일\D3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
