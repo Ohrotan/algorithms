@@ -1,5 +1,5 @@
 //SW Academy 5293 홍준이의 숫자놀이
-//조란, 2020.08.08 15:36~
+//조란, 2020.08.08 15:36 ~ 18:00
 #include<iostream>
 #include<iterator>
 #include<list>
