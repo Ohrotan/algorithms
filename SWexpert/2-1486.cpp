@@ -1,62 +1,28 @@
-//SW Academy 1486 장훈이의 높은 선반
-//조란, 2020.08.10 16:05 ~ 16:25, 22:15 ~ 
-#pragma warning(disable:4996) 
-#include<cstdio>
-#include<vector>
-#include<queue>
-#include<algorithm>
-#include<numeric>
-
+#include <iostream>
+#include <algorithm>
 using namespace std;
-
 int n, b;
-vector<int> top;
-int sum = 0;
-int result = 0;
-
-int minTop(queue<int> q) {
-	int tmp;
-	queue<int> q;
-	for (int i = 0; i < n; ++i) {
-		
-		int popped = q.front();
-		tmp = sum - popped;
-		q.pop();
-		
-		if (tmp > b) {
-			minTop(q);
-		}
-		
-	}
+int s[22];
+int ans = 0x3f3f3f3f;
+void sol(int idx, int pidx) {
+    if (idx >= n) {
+        if (pidx >= b)
+            ans = min(ans, pidx);
+        return;
+    }
+    sol(idx + 1, pidx + s[idx]);
+    sol(idx + 1, pidx);
 }
-
-int main(void) {
-	int T;
-	scanf("%d", &T);
-
-	int h;
-	for (int tc = 1; tc <= T; ++tc) {
-		scanf("%d %d", &n, &b);
-		sum = 0;
-		for (int i = 0; i < n; ++i) {
-			scanf("%d", &h);
-			top.push_back(h);
-			sum += h;
-		}
-		result = sum;
-		int tmp = 0;
-		for (int i = 0; i < n; ++i) {
-			tmp = sum - top.at(i);
-			for (int j = i + 1; j < n; ++j) {
-				tmp -= top.at(j);
-				if (tmp >= b && result > tmp) {
-					result = tmp;
-				}
-			}
-		}
-		printf("#%d %d", tc, result - b);
-
-
-	}
-	return 0;
+int main() {
+    int tc;
+    scanf("%d", &tc);
+    for (int test = 1; test <= tc; test++) {
+        ans = 0x3f3f3f3f;
+        scanf("%d%d", &n, &b);
+        for (int i = 0; i < n; i++)
+            scanf("%d", &s[i]);
+        sol(0, 0);
+        printf("#%d %d\n", test, ans - b);
+    }
+    return 0;
 }

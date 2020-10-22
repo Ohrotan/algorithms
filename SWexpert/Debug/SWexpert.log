@@ -1,2 +1,3 @@
-﻿  2-1486.cpp
+﻿  real2.cpp
+C:\Users\ygj02\algorithms\SWexpert\real2.cpp(77,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   SWexpert.vcxproj -> C:\Users\ygj02\algorithms\SWexpert\Debug\SWexpert.exe
