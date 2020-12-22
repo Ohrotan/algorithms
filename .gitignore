@@ -1,7 +1,7 @@
 /.vs
-.sln
-.vcxproj
-.vcxproj.*
+*.sln
+*.vcxproj
+*.vcxproj.*
 /exam_clone
 /Debug
 /Release
