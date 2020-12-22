@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\exam">
       <UniqueIdentifier>{2d759a40-36e7-4802-91a9-c305062bca3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{0ad98353-bf8f-405e-9aec-ba25278a833c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1859.cpp">
@@ -255,10 +258,54 @@
     <ClCompile Include="소스2.cpp">
       <Filter>소스 파일\exam</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1_컬러링북_1829.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="2_트럭_42583.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="3_삼각달팽이_68645.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="4_큰수만들기.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모비스_1.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모비스_3.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모비스_2.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모비스_3_2.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모비스3_3.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
       <Filter>소스 파일</Filter>
     </Text>
+    <Text Include="mobis1.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="mobis2.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="mobis3.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="solution.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
