@@ -1,9 +1,6 @@
+/.vs
 .sln
 .vcxproj
-모비스_1.cpp
-모비스_2.cpp
-모비스_3.cpp
-모비스_3_2.cpp
-모비스3_3.cpp
+/exam_clone
 /Debug
 /Release
